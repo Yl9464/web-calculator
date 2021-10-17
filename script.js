@@ -1,9 +1,19 @@
-function sum(numOne, numTwo) {
-    const numOne = document.getElementById('firstNumber').value
-    const numTwo = document.getElementById('secondNumber').value
-    return numOne + numTwo
+function sum() {
+
+    const total = Number(document.getElementById('firstNumber').value) + Number(document.getElementById('secondNumber').value)
+    alert('The answer is...' + total + '!')
 
 }
+
+function punchLine() {
+
+    const joker = 'With a COWculator'
+    alert(joker + '!')
+}
+
+
+
+
 
 
 
