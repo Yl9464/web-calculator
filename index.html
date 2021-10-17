@@ -1,15 +1,31 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
+    <title>Ying's Web Calculator</title>
 </head>
 
 <body>
-    <form onbutton="sum">
+    <u>
+        <header>Web Calculator</header>
+    </u>
+    <br>
+    <form onSubmit="sum()">
         <input type="number" name="firstValue" id="firstNumber" />
         +
         <input type="number" name="secondValue" id="secondNumber" />
-        <input type="button" value="Add em' up!" id="sumButton">
-</body>
+        <button type="submit" id="theAnswer" class="button">Add em' up! </button>
 
-</html>
+    </form>
+
+
+    <form onsubmit="punchLine()">
+        <h1>Fun Pun! </h1>
+        <p1>How do you count cows? </p1>
+        <button type="submit" id="punchline"> Punchline</button>
+        <br>
+        <p2>#moooooo</p2>
+    </form>
+
+</body>
