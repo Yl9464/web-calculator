@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Ying's Web Calculator</title>
+</head>
+
+<body>
+    <u>
+        <header>Web Calculator</header>
+    </u>
+    <br>
+    <form onSubmit="sum()">
+        <input type="number" name="firstValue" id="firstNumber" />
+
+        <select id="function">
+            <option value=''>Select a Function, any function</option>
+            <option value='add'>+</option>
+            <option value='minus'>-</option>
+            <option value='divide'>÷</option>
+            <option value='multiple'>×</option>
+        </select>
+        <span id="sum"></span>
+
+        </select>
+        <input type="number" name="secondValue" id="secondNumber" />
+        <button type="submit" id="theAnswer" class="button">Add em' up! </button>
+
+    </form>
+
+
+    <form onsubmit="punchLine()">
+        <h1>Fun Pun! </h1>
+        <p1>How do you count cows? </p1>
+        <button type="submit" id="punchline"> Punchline</button>
+        <br>
+        <p2>#moooooo</p2>
+    </form>
+
+</body>

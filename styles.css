@@ -1,0 +1,32 @@
+header{
+    color:rgb(180, 218, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+u{
+    font-size: xx-large;
+    color: aliceblue;
+    text-align:center;
+}
+
+body{
+    background-color: rgb(63, 170, 212);
+   
+}
+
+form{
+    text-align: center;
+
+}
+
+button{
+ color:rgb(180, 218, 47);
+background-color: rgb(133, 62, 180);
+font-family: cursive;
+font-weight: bold;
+border-width: 4px;
+border-color: azure;
+}
+
