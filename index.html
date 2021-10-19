@@ -13,7 +13,17 @@
     <br>
     <form onSubmit="sum()">
         <input type="number" name="firstValue" id="firstNumber" />
-        +
+
+        <select id="function">
+            <option value=''>Select a Function, any function</option>
+            <option value='add'>+</option>
+            <option value='minus'>-</option>
+            <option value='divide'>÷</option>
+            <option value='multiple'>×</option>
+        </select>
+        <span id="functions"></span>
+
+        </select>
         <input type="number" name="secondValue" id="secondNumber" />
         <button type="submit" id="theAnswer" class="button">Add em' up! </button>
 
