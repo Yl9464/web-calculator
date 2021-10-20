@@ -1,53 +1,29 @@
-function sumAll() {
-    //const operation = document.getElementById('function').value
-    //const total = Number(document.getElementById('firstNumber').value) + Number(document.getElementById('secondNumber').value)
+function sum() {
+    const num1 = Number(document.getElementById('firstNumber').value)
+    const num2 = Number(document.getElementById('secondNumber').value)
 
-    //const operator = prompt('Enter operator'(either +, -, * or / ))
-    const number1 = parseFloat(document.getElementById('firstNumber').value)
-    const number2 = parseFloat(document.getElementById('secondNumber').value)
+    switch (num1, num2) {
 
-    let result
+        case '+':
+            return +num1 + +num2;
+            break
+        case '-':
+            return +num1 - +num2;
+            break
+        case '÷':
+            return +num1 / +num2;
+            break
 
-    if ('' == '+') {
-        result = number1 + number2
+        case '×':
+            return +num1 * +num2;
 
-    }
-
-    else if ('' == '-') {
-        result = number1 - number2
-
-    }
-
-    else if ('' == '*') {
-        result = number1 * number2
-
-    }
-    else if ('' == '/') {
-        result = number1 / number2
+        default:
+            alert("error")
 
     }
 
-    return ('result')
 
-}
-
-
-function punchLine() {
-
-    const joker = 'With a COWculator'
-    alert(joker + '!')
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    function punchLine() {
+        const joke = 'With a COWculator'
+        alert(joke + '!')
+    }
