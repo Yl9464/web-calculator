@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -15,7 +16,7 @@
     <form onSubmit="sum()">
         <input type="number" name="firstValue" id="firstNumber" />
 
-        <select id="operation" onchange="displayTotal()">
+        <select id="operation">
             <option value=''>Select a Function</option>
             <option value='addition'>+</option>
             <option value='subtraction'>-</option>
@@ -23,10 +24,10 @@
             <option value='multiplication'>*</option>
 
         </select>
-        <span id="total"></span>
+
 
         <input type="number" name="secondValue" id="secondNumber" />
-        <button type="submit" id="Answer" class="button">=</button>
+        <button type="submit" id="equals" class="button">=</button>
         <input type="number" name="total" id="answer" />
 
     </form>

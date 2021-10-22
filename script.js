@@ -1,30 +1,37 @@
 function sum() {
-    var num1 = Number(document.getElementById('firstNumber').value);
-    var num2 = Number(document.getElementById('secondNumber').value);
-    var operators = document.getElementById('operation').value;
+    var num1 = Number(document.getElementsById('firstNumber').value);
+    var num2 = Number(document.getElementsById('secondNumber').value);
+    var operator = document.getElementsById('operation').value;
+    var total = num1 + operator + num2
+    if (operator == '+') {
 
-    document.getElementById('answer').value = [num1, num2, operators]
-    //var sum = Number(num1) + Number(num2);
-    switch (operators) {
-        case "addition":
-            alert('the answer is' + answer);
-            break
-
-        case "subtraction":
-            alert('the answer is' + answer);
-            break
-
-        default:
-            alert("unknown")
     }
-    // alert(sum);
-    //const total = Number(document.getElementById('firstNumber').value) + Number(document.getElementById('secondNumber').value)
-    //alert('The answer is...' + total + '!')
-}
+    else if (operator == '-') {
+
+    }
+    else if (operator == '/') {
+
+    }
+    else if (operator == '*') {
+
+    }
+    else
+        aler('invalid')
+
+    // var total = num1 + operators + num2;
+
+    //var num1 = Number(document.getElementsById('firstNumber').value);
+    //var num2 = Number(document.getElementsById('secondNumber').value);
+    //var total = Number(document.getElementsById('answer').value);
+    // var operators = document.getElementsById('operation').value;
+
+    // document.getElementsById('answer').value = (num1, operators, num2)
+    //var sum = Number(num1) + Number(num2);
 
 
-function punchLine() {
 
-    const joker = 'With a COWculator'
-    alert(joker + '!')
-}
+    function punchLine() {
+
+        const joker = 'With a COWculator'
+        alert(joker + '!')
+    }
