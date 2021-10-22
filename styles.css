@@ -23,9 +23,9 @@ form{
 
 button{
  color:rgb(180, 218, 47);
-background-color: rgb(133, 62, 180);
-font-family: cursive;
-font-weight: bold;
-border-width: 4px;
+background-color: rgb(26, 24, 27);
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-weight: bold; 
+border-width: 2px;
 border-color: azure;
 }

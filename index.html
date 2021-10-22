@@ -13,12 +13,23 @@
     <br>
 
     <form onSubmit="sum()">
-
         <input type="number" name="firstValue" id="firstNumber" />
-        +
+
+        <select id="operation" onchange="displayTotal()">
+            <option value=''>Select a Function</option>
+            <option value='add'>+</option>
+            <option value='minus'>-</option>
+            <option value='divide'>÷</option>
+            <option value='multiple'>×</option>
+
+        </select>
+        <span id="total"></span>
+
         <input type="number" name="secondValue" id="secondNumber" />
-        <button type="submit" id="theAnswer" class="button">Add em' up! </button>
+        <button type="submit" id="Answer" class="button">=</button>
+
     </form>
+
 
 
     <form onsubmit="punchLine()">
