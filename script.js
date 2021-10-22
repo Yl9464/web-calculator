@@ -1,16 +1,17 @@
 function sum() {
     var num1 = Number(document.getElementById('firstNumber').value);
     var num2 = Number(document.getElementById('secondNumber').value);
+    var operators = document.getElementById('operation').value;
 
-    var sum = num1 + operation + num2
+    document.getElementById('answer').value = [num1, num2, operators]
     //var sum = Number(num1) + Number(num2);
-    switch (sum) {
-        case "add":
-            alert('the answer is' + sum);
+    switch (operators) {
+        case "addition":
+            alert('the answer is' + answer);
             break
 
-        case "minus":
-            alert('the answer is' + sum);
+        case "subtraction":
+            alert('the answer is' + answer);
             break
 
         default:
