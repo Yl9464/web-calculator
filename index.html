@@ -13,8 +13,9 @@
     </u>
     <br>
 
-    <form onSubmit="sum()">
-        <input type="number" name="firstValue" id="firstNumber" />
+    <form>
+
+        <input type="text" name="firstValue" id="firstNumber" />
 
         <select id="operation">
             <option value=''>Select a Function</option>
@@ -22,17 +23,15 @@
             <option value='subtraction'>-</option>
             <option value='divison'>/</option>
             <option value='multiplication'>*</option>
-
         </select>
-        <span id="total"></span>
 
-        <input type="number" name="secondValue" id="secondNumber" />
-        <button type="submit" id="equals" class="button">=</button>
-        <input type="number" name="total" id="answer" />
+        <input type="text" name="secondValue" id="secondNumber" />
+        <input type="button" value="=" onclick=" calculate()" />
+        <input type="text" id="result" />
 
     </form>
 
-
+    <span id="result"></span>
 
     <form onsubmit="punchLine()">
         <h1>Fun Pun! </h1>
@@ -40,7 +39,6 @@
         <button type="submit" id="punchline"> Punchline</button>
         <br>
         <p2>#moooooo</p2>
-
     </form>
 
 </body>
