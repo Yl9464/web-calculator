@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Ying's Web Calculator</title>
+</head>
+
+<body>
+    <u>
+        <header>Web Calculator</header>
+    </u>
+    <br>
+
+    <form>
+
+        <input type="text" name="firstValue" id="firstNumber" />
+
+        <select id="operation">
+            <option value=''>Select a Function</option>
+            <option value='addition'>+</option>
+            <option value='subtraction'>-</option>
+            <option value='divison'>/</option>
+            <option value='multiplication'>*</option>
+        </select>
+
+        <input type="text" name="secondValue" id="secondNumber" />
+        <input type="button" value="=" onclick=" calculate()" />
+        <input type="text" id="result" />
+
+    </form>
+
+    <span id="result"></span>
+
+    <div class="pun">
+        <form onsubmit="punchLine()">
+            <h1>Fun Pun! </h1>
+            <p1>How do you count cows? </p1>
+            <button type="submit" id="punchline"> Punchline </button>
+            <br>
+            🐄
+            <p2>#moooooo</p2>
+            🐄
+
+        </form>
+    </div>
+
+</body>
